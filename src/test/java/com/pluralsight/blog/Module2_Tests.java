@@ -201,10 +201,10 @@ public class Module2_Tests {
     @Test
     public void task_5() {
         List<Author> authorsSaved = Arrays.asList(
-                new Author("sholderness", "Sarah",  "Holderness", "password"),
-                new Author("tbell", "Tom",  "Bell", "password"),
-                new Author("efisher", "Eric",  "Fisher", "password"),
-                new Author("csouza", "Carlos",  "Souza", "password")
+                new Author("oieusouweverton", "Weverton", "Bruno", "password"),
+                new Author("oieusouweverton2", "Weverton", "Bruno", "password"),
+                new Author("oieusouweverton3", "Weverton", "Bruno", "password"),
+                new Author("oieusouweverton4", "Weverton", "Bruno", "password")
         );
 
         List<Author> authorsFromRepo = authorRepository.findAll();
@@ -231,10 +231,10 @@ public class Module2_Tests {
                 "Earbuds", "Speakers", "Tripod", "Instant Pot", "Coffee Cup", "Keyboard", "Sunglasses"};
 
         List<Author> authorsSaved = Arrays.asList(
-                new Author("sholderness", "Sarah",  "Holderness", "password"),
-                new Author("tbell", "Tom",  "Bell", "password"),
-                new Author("efisher", "Eric",  "Fisher", "password"),
-                new Author("csouza", "Carlos",  "Souza", "password")
+                new Author("oieusouweverton", "Weverton", "Bruno", "password"),
+                new Author("oieusouweverton2", "Weverton", "Bruno", "password"),
+                new Author("oieusouweverton3", "Weverton", "Bruno", "password"),
+                new Author("oieusouweverton4", "Weverton", "Bruno", "password")
         );
 
         List<Post> postsSaved = new ArrayList<>();
